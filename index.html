@@ -317,7 +317,7 @@ $('diaryForm').addEventListener('submit', async e => {
   const data = await readForm();
 
   // 🔹 STEP 1: Set your Google Apps Script Web App URL here
-  const scriptUrl = $('gappUrl').value || ""; // if blank, we'll save only locally
+  const scriptUrl = $('gappUrl').value || "https://script.google.com/macros/s/AKfycbwduTrv3_USCQ84DNi1wjP-9Ogh9QevnnVItLKglK8r_1VNXtILmeX-XIWv_9xMil6lxA/exec"; // if blank, we'll save only locally
 
   try {
     if(scriptUrl){
